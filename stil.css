@@ -5,34 +5,14 @@ font-weight:bold;
 
 #navigacija{
 float:right;
-margin-right:300px;
+margin-right:15%;
 margin-top:45px;
 font-size:18px;
 }
 
-#slika{
-margin-top:20px;
-}
-
-.tekst_za_sliku{
-position:absolute;
-right:200px;
-color:white;
-}
-
-.row h3{
-text-align:center;
-font-weight:bold;
-}
-
-.col-md-4 p{
-	padding:30px;
-	font-size:20px;
-}
-
 h1{
-	margin-left:400px;
-	padding-top:40px;
+margin-left:20%;
+padding-top:40px;
 }
 
 h1 a{
@@ -45,63 +25,107 @@ text-decoration:none;
 }
 
 .naslovna_linija{
-	width:40%;
+width:40%;
 }
 
-.video{
+#index #slika{
+margin-top:20px;
+}
+
+#index #p1{
+top:370px;
+font-size:40px;
+font-weight:bold;
+}
+
+#index #p2{
+top:470px; 
+font-size:20px;
+}
+
+#index .tekst_za_sliku{
+position:absolute;
+right:200px;
+color:white;
+}
+
+#index .row{
+margin-top:30px;
+margin-right:0px;
+}
+
+#index .row h3{
+text-align:center;
+font-weight:bold;
+}
+
+#index .col-md-4 p{
+padding:30px;
+font-size:20px;
+}
+
+#video .video{
 display:block;
 margin:auto;
 margin-top:20px;
 }
 
-.slike_sponzori{
+#sponzori .slike_sponzori{
 margin-left:10%;
 }
 
-.slika_p1{
+#slike .slika_p1{
 width:45%;
 height:45%;
 margin-bottom:2px;
 }
 
-.slika_p1_l{
-	margin-left:5%;
+#slike .slika_p1_l{
+margin-left:5%;
 }
 
-#karijera{
-	width:800px;
-	margin:auto;
-	margin-top:30px;
+#karijera #karijera-tekst{
+width:800px;
+margin:auto;
+margin-top:30px;
 }
 
-#karijera h4{
-	font-weight:bold;
+#karijera #karijera-tekst h4{
+font-weight:bold;
 }
 
-#karijera hr{
-	margin-top:20px;
-	margin-bottom:20px;
+#karijera #karijera-tekst hr{
+margin-top:20px;
+margin-bottom:20px;
 }
 
-#rezultati_slika{
-	margin-left:25%;
-	margin-bottom:20px;
+#rezultati #rezultati_slika{
+margin-left:25%;
+margin-bottom:20px;
+width:50%;
 }
 
-#tabela_rezultati{
-	margin:auto;
-	margin-bottom:30px;
-	font-size:20px;
+#rezultati h5{
+text-align:center;
+font-weight:bold;
+margin-top:30px;
+margin-bottom:30px;
 }
 
-#tabela_rezultati tr{
-	height:40px;
+#rezultati #tabela_rezultati{
+margin:auto;
+margin-bottom:30px;
+font-size:20px;
 }
 
-#tabela_rezultati th{
-	border-bottom:3px solid black;
+#rezultati #tabela_rezultati tr{
+height:40px;
 }
 
-#tabela_rezultati tr:nth-child(even){
-	background-color: #f2f2f2;
+#rezultati #tabela_rezultati th{
+border-bottom:3px solid black;
+}
+
+#rezultati #tabela_rezultati tr:nth-child(even){
+background-color: #f2f2f2;
 }
