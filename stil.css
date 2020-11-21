@@ -1,6 +1,7 @@
 .nav-link{
 color:black; 
-font-weight:bold;}
+font-weight:bold;
+}
 
 #navigacija{
 	float:right;
@@ -101,4 +102,6 @@ margin-bottom:2px;
 	border-bottom:3px solid black;
 }
 
-#tabela_rezultati tr:nth-child(even) {background-color: #f2f2f2;}
+#tabela_rezultati tr:nth-child(even){
+	background-color: #f2f2f2;
+}
