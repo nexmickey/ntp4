@@ -1,0 +1,104 @@
+.nav-link{
+color:black; 
+font-weight:bold;}
+
+#navigacija{
+	float:right;
+	margin-right:300px;
+	margin-top:45px;
+	font-size:18px;
+}
+
+#slika{
+	margin-top:20px;
+}
+
+.tekst_za_sliku{
+position:absolute;
+right:200px;
+color:white;
+}
+
+.row h3{
+text-align:center;
+font-weight:bold;
+}
+
+.col-md-4 p{
+	padding:30px;
+	font-size:20px;
+}
+
+h1{
+	margin-left:400px;
+	padding-top:40px;
+}
+
+h1 a{
+color:black;
+font-weight:bold;
+}
+
+h1 a:hover{
+text-decoration:none;
+}
+
+.naslovna_linija{
+	width:40%;
+}
+
+.video{
+display:block;
+margin:auto;
+margin-top:20px;
+}
+
+.slike_sponzori{
+margin-left:10%;
+}
+
+.slika_p1{
+width:45%;
+height:45%;
+margin-bottom:2px;
+}
+
+.slika_p1_l{
+	margin-left:5%;
+}
+
+#karijera{
+	width:800px;
+	margin:auto;
+	margin-top:30px;
+}
+
+#karijera h4{
+	font-weight:bold;
+}
+
+#karijera hr{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#rezultati_slika{
+	margin-left:25%;
+	margin-bottom:20px;
+}
+
+#tabela_rezultati{
+	margin:auto;
+	margin-bottom:30px;
+	font-size:20px;
+}
+
+#tabela_rezultati tr{
+	height:40px;
+}
+
+#tabela_rezultati th{
+	border-bottom:3px solid black;
+}
+
+#tabela_rezultati tr:nth-child(even) {background-color: #f2f2f2;}
